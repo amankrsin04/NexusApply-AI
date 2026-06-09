@@ -1,0 +1,58 @@
+linkedin:                                               #credentials for linkedin login
+  email: "amansenger04@gmail.com"
+  password: "aman@0001"
+
+search:                                                   #what ever you want to search for
+
+  keywords:
+    - "Data Analyst Python"
+    - "Data Analyst SQL"
+    - "Data Scientist Machine Learning"
+    - "Power BI Analyst"
+    - "Business Analyst Excel"
+    - "Tableau Developer"
+
+  locations:
+    - "Delhi"
+    - "Noida"
+    - "Gurgaon"
+    - "Bangalore"
+
+
+  hours_old: 24
+  easy_apply: true
+
+resume:            #resume file path or you can add resume on linkedin profile and set this to null
+  path: "https://drive.google.com/file/d/1-LZamVja_XEth5c01OA_n2zAOWzkHvkl/view?usp=sharing"
+
+application:      #details to fill in application form if not auto filled from linkedin profile
+  phone: "9198017410"
+  experience: "1"
+  current_ctc: "0"
+  expected_ctc: "8"
+  notice_period: "30"
+
+filters:          #filters to apply on job search results
+  good_companies:
+    - Google
+    - Microsoft
+    - Amazon
+    - Deloitte
+    - Accenture
+    - EY
+    - KPMG
+    - PwC
+    - Infosys
+    - TCS
+    - Wipro
+    - Cognizant
+    - Capgemini
+    - Flipkart
+    - Swiggy
+    - Zomato
+    - Meesho
+    - Uber
+    - Ola
+
+database:
+  name: "jobs.db"
